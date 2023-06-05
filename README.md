@@ -8,7 +8,7 @@
  * An encrypted channel such as HTTPS (or)
  * In an ecrypted email such as SMTP over HTTPS		
 * Authentication credentials must meet the Password Strength policy:
-  # M&S specific policy			
+  M&S specific policy			
 * Sensitive information such as passwords, Personally Identifiable Information (PII), Non-Public Information (NPI) must be obscured on the user's screen.				
 * If the number of invalid login attempts are more than three, such accounts must be locked out to prevent brute force attacks				
 * Password resets should require the same level of stringent security controls as account creation and authentication. 				
