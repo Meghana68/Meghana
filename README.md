@@ -1,4 +1,4 @@
-Security Design Controls 	"Compliant / In-Place
+# Security Design Controls 	"Compliant / In-Place
  (Yes / No / NA)"	If "No", targeted timeline to achieve compliance	Comments	Attach Evidence 
 Authentication				
 Authentication credentials for accessing services external to the application such as database, email server, file server, third party APIs, etc. should be encrypted and stored in a protected location on a trusted system				
