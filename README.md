@@ -1,4 +1,4 @@
-# # Security Design Controls 	"Compliant / In-Place
+Security Design Controls 	"Compliant / In-Place
  (Yes / No / NA)"	If "No", targeted timeline to achieve compliance	Comments	Attach Evidence 
 Authentication				
 Authentication credentials for accessing services external to the application such as database, email server, file server, third party APIs, etc. should be encrypted and stored in a protected location on a trusted system				
@@ -29,4 +29,4 @@ Users must be re-authenticated prior to performing critical operations. For exam
 Use Multi-Factor Authentication (MFA) for highly sensitive or high value transactional accounts				
 The design should segregate the web application into public and restricted areas using separate folders				
 One-way hashsed passwords along with their respective salt values should be stored in the database for verification				
-![image](https://github.com/Meghana68/Checklist/assets/94606049/7e62b488-6fcc-44e0-bb97-25f8143ad65f)
+![image](https://github.com/Meghana68/Meghana68.github.io/assets/94606049/8dcc5a4a-0b16-4175-9c5c-ae9ef0d28cad)
