@@ -1,0 +1,37 @@
+on: [push, pull_request]
+
+name: Security Design Checklist
+
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for filling the checklist.
+  - type: input
+    id: Name
+    attributes:
+      label: Security Design Controls
+      description: 
+      placeholder: 
+    validations:
+      required: true
+
+  - type: textarea
+    id: info
+    attributes:
+      label: Comments
+      description: Add more information.
+      render: shell
+    validations:
+      required: true
+
+  - type: dropdown
+    id: Level
+    attributes:
+      label: Compliant / In-Place
+      description: 
+      options:
+        - "Yes"
+        - "No"
+        - "NA"
+    validations:
+      required: true
